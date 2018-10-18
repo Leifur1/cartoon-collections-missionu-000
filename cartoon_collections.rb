@@ -1,4 +1,4 @@
-def roll_call_dwarves(array)
+def roll_call_dwarves(dwarves)
   i = 0
   dwarfs = []
   while i < array.length
