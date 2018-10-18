@@ -1,11 +1,9 @@
 def roll_call_dwarves(dwarves)
   i = 1
-  dwarfs = []
-  while i < dwarves.length
-    puts "#{i} #{dwarves}"
+  dwarves.each do |a|
+    puts "#{i} #{a}"
     i += 1
   end
-  dwarfs
 end
 
 def summon_captain_planet# code an argument here
