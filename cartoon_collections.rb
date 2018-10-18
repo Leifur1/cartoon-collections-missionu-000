@@ -11,7 +11,7 @@ def summon_captain_planet(planeteer_calls)
   planeteer_calls.split(" ")
   planeteer_calls.collect do |i|
     binding.pry
-    i.capitalize
+    planeteer_calls = i.capitalize
   end
 end
 
